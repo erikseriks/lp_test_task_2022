@@ -1,0 +1,142 @@
+{
+  "default": {
+    "message": "test",
+    "routes": {
+      "about": "Par",
+      "cv": "CV",
+      "home": "Sākums"
+    },
+    "global": {
+      "yes": "Jā",
+      "no": "Nē",
+      "pleaseSelect": "Izvēlēties...",
+      "months": {
+        "1": "Janvāris",
+        "2": "Februāris",
+        "3": "Marts",
+        "4": "Aprīlis",
+        "5": "Maijs",
+        "6": "Jūnijs",
+        "7": "Jūlijs",
+        "8": "Augusts",
+        "9": "Septembris",
+        "10": "Oktobris",
+        "11": "Novembris",
+        "12": "Decembris "
+      }
+    },
+    "actions": {
+      "add": "Pievienot",
+      "cancel": "Atcelt",
+      "cancelEdit": "Vai teišām atcelt? Visi nesaglabātie dati tiks zaudēti.",
+      "delete": "Dzēst",
+      "deleteMessage": "Vai teišām dzēst?",
+      "edit": "Labot",
+      "save": "Saglabāt",
+      "view": "Skatīt",
+      "back": "Atpakaļ",
+      "print": "Drukāt"
+    },
+    "cv": {
+      "cv": {
+        "form": {
+          "main-information": "Pamatdati",
+          "education": "Izglītība",
+          "experience": "Darba pieredze",
+          "languages": "Valodu zināšanas",
+          "skills": "Prasmes vai sasniegumi",
+          "addresses": "Adreses"
+        },
+        "module": {
+          "first_name": "Vārds",
+          "last_name": "Uzvārds",
+          "phone": "Tālrunis",
+          "email": "E-pasts",
+          "native_language": "Dzimtā valoda"
+        }
+      },
+      "education": {
+        "statusOptions": {
+          "1": "Mācības pabeigtas",
+          "2": "Pārtrauktas",
+          "3": "Mācās"
+        },
+        "module": {
+          "end_month": "Mēnesis",
+          "end_year": "Beigu gads",
+          "faculty": "Fakultāte",
+          "field": "Studiju virziens",
+          "level": "Izglītības līmenis",
+          "name": "Nosaukums",
+          "start_month": "Mēnesis",
+          "start_year": "Sākuma gads",
+          "status": "Statuss"
+        }
+      },
+      "experience": {
+        "form": {
+          "skills": "Darba vietās pielietotās prasmesvai sasniegumi"
+        },
+        "module": {
+          "end_month": "Mēnesis",
+          "end_year": "Beigu gads",
+          "name": "Nosaukums",
+          "position": "Ieņemamais amats",
+          "start_month": "Mēnesis",
+          "start_year": "Sākuma gads",
+          "work_load": "Slodzes apmērs"
+        }
+      },
+      "skill": {
+        "typeOptions": {
+          "null": "-",
+          "1": "Pamatdarbs",
+          "2": "Sasniegums",
+          "3": "Papildus prasme",
+          "4": "Cits"
+        },
+        "module": {
+          "type": "Veids",
+          "description": "Apraksts"
+        }
+      },
+      "address": {
+        "module": {
+          "country": "Valsts",
+          "index": "Indekss",
+          "city": "Pilsēta",
+          "street": "Iela",
+          "number": "Numurs / nosaukums"
+        },
+        "view": {
+          "address": "Adrese"
+        }
+      },
+      "language": {
+        "levelOptions": {
+          "1": "A1",
+          "2": "A2",
+          "3": "B1",
+          "4": "B2",
+          "5": "C1",
+          "6": "C2"
+        },
+        "module": {
+          "name": "Valoda",
+          "listening": "Klausīšanās",
+          "reading": "Lasīšana",
+          "talking": "Runāšana",
+          "writing": "Rakstīšana"
+        }
+      }
+    },
+    "validation": {
+      "errors": {
+        "validation-required": "Lauks ir obligāts",
+        "validation-max-string": "Ievadītā vērtība par garu priekš lauka",
+        "validation-digits": "Vērtība nav atļauta",
+        "validation-digits_between": "Jāizvēlas kāds no variantiem"
+      }
+    }
+  }
+}

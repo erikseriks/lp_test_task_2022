@@ -1,0 +1,66 @@
+{
+  "name": "testa_uzdevums",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve --host 0.0.0.0",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "lint": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/undefined/**/*.json\""
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.17.3",
+    "core-js": "^3.6.5",
+    "mutationobserver-shim": "^0.3.7",
+    "regenerator-runtime": "^0.13.7",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.22.3",
+    "vue-router": "^3.2.0",
+    "vue-wysiwyg": "^1.7.2",
+    "vuex": "^3.4.0",
+    "jquery": "1.9.1",
+    "webpack": "<=6.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "popper.js": "^1.16.1",
+    "portal-vue": "^2.1.7",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "vue-cli-plugin-bootstrap-vue": "^0.7.0",
+    "vue-cli-plugin-i18n": "^2.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "jquery": "1.9.1",
+    "webpack": "<=6.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/airbnb"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

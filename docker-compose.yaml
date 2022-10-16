@@ -1,0 +1,56 @@
+version: '3.4'
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: dockerfile
+    command: bash -c "php artisan migrate:fresh --seed --force && php -S 0.0.0.0:8000 -t public"
+    depends_on:
+      - db
+    restart: always
+    environment:
+      DB_DATABASE: ${DB_NAME}
+      DB_USERNAME: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_HOST: db
+    ports:
+      - '8001:8000'
+    networks:
+      - project
+    volumes:
+      - './backend:/var/www'
+      - /var/www/vendor
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: dockerfile-dev
+    ports:
+      - '8004:8080'
+      - '8005:80'
+    restart: always
+    networks:
+      - project
+    volumes:
+      - './frontend:/var/www'
+      - /var/www/node_modules
+
+  db:
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASS}
+      MYSQL_ROOT_HOST: '%'
+    networks:
+      - project
+    ports:
+      - 3333:3306
+    volumes:
+      - './DB:/var/lib/mysql'
+
+networks:
+  project:
+    driver: bridge

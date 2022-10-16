@@ -1,0 +1,11 @@
+FROM node:latest
+
+RUN npm install -g pnpm
+WORKDIR /var/www
+COPY package*.json ./
+COPY .npmrc ./
+RUN pnpm install
+COPY . .
+
+EXPOSE 8080
+CMD ["pnpm", "start"]

@@ -1,0 +1,142 @@
+{
+  "default": {
+    "message": "test",
+    "routes": {
+      "about": "About",
+      "cv": "CV",
+      "home": "Home"
+    },
+    "global": {
+      "yes": "Yes",
+      "no": "No",
+      "pleaseSelect": "Please select an option",
+      "months": {
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September",
+        "10": "October",
+        "11": "November",
+        "12": "December"
+      }
+    },
+    "actions": {
+      "add": "Add",
+      "cancel": "Cancel",
+      "cancelEdit": "Are you sure you wish to cancel? All unsaved data will be lost.",
+      "delete": "Delete",
+      "deleteMessage": "Are you sure you wish to delete?",
+      "edit": "Edit",
+      "save": "Save",
+      "view": "View",
+      "back": "Back",
+      "print": "Print"
+    },
+    "cv": {
+      "cv": {
+        "form": {
+          "main-information": "Main information",
+          "education": "Education",
+          "experience": "Work experience",
+          "languages": "Languages",
+          "skills": "Skills or achievements",
+          "addresses": "Addresses"
+        },
+        "module": {
+          "first_name": "Name",
+          "last_name": "Last name",
+          "phone": "Phone",
+          "email": "E-mail",
+          "native_language": "Native language"
+        }
+      },
+      "education": {
+        "statusOptions": {
+          "1": "Finished",
+          "2": "Stopped",
+          "3": "Learning"
+        },
+        "module": {
+          "end_month": "Month",
+          "end_year": "End year",
+          "faculty": "Faculty",
+          "field": "Field of study",
+          "level": "Education Level",
+          "name": "Name",
+          "start_month": "Month",
+          "start_year": "Start year",
+          "status": "status"
+        }
+      },
+      "experience": {
+        "form": {
+          "skills": "Skills or achievements used in the workplace"
+        },
+        "module": {
+          "end_month": "Month",
+          "end_year": "End year",
+          "name": "Comany name",
+          "position": "Position",
+          "start_month": "Month",
+          "start_year": "Start year",
+          "work_load": "Work load"
+        }
+      },
+      "skill": {
+        "typeOptions": {
+          "null": "-",
+          "1": "Main job",
+          "2": "Achievement",
+          "3": "Extra skill",
+          "4": "Other"
+        },
+        "module": {
+          "type": "Type",
+          "description": "Description"
+        }
+      },
+      "address": {
+        "module": {
+          "country": "Country",
+          "index": "Index",
+          "city": "City",
+          "street": "Street",
+          "number": "Number / Name"
+        },
+        "view": {
+          "address": "Address"
+        }
+      },
+      "language": {
+        "levelOptions": {
+          "1": "A1",
+          "2": "A2",
+          "3": "B1",
+          "4": "B2",
+          "5": "C1",
+          "6": "C2"
+        },
+        "module": {
+          "name": "Language",
+          "listening": "Listening",
+          "reading": "Reading",
+          "talking": "Talking",
+          "writing": "Writing"
+        }
+      }
+    },
+    "validation": {
+      "errors": {
+        "validation-required": "Field is required",
+        "validation-max-string": "Text is to long for the field",
+        "validation-digits": "Non allowed values",
+        "validation-digits_between": "One of the options must be selected"
+      }
+    }
+  }
+}
