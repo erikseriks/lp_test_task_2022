@@ -5,4 +5,4 @@
 
 ## Uzstādīšana
 - Izpildīt komandu `docker-compose up`
-- Links uz aplikāciju: http://localhost:8004
+- Links uz aplikāciju: http://localhost:8080

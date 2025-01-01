@@ -24,7 +24,7 @@
 
     <p v-if="value.start_year">
       {{ $t('cv.education.module.start_year') }} :
-      {{ value.start_year}}
+      {{ value.start_year }}
       <span v-if="value.start_month">
         -
         {{ $t('cv.education.module.start_month') }} :

@@ -10,11 +10,4 @@ RUN docker-php-ext-install pdo mbstring pdo_mysql
 
 WORKDIR /var/www
 
-COPY composer.* ./
-
-RUN composer install
-
 COPY . .
-
-EXPOSE 8000
-CMD php -S 0.0.0.0:8000 -t public

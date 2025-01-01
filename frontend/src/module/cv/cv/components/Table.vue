@@ -33,10 +33,18 @@
     >
       <template #cell(actions)="{item}">
         <div class="d-flex">
-          <b-button class="ml-auto" size="sm" :to="`/cv/${item.id}/edit`">
+          <b-button
+            class="ml-auto"
+            size="sm"
+            :to="`/cv/${item.id}/edit`"
+          >
             {{ $t('actions.edit') }}
           </b-button>
-          <b-button class="ml-1" size="sm" :to="`/cv/${item.id}`">
+          <b-button
+            class="ml-1"
+            size="sm"
+            :to="`/cv/${item.id}`"
+          >
             {{ $t('actions.view') }}
           </b-button>
           <b-button
@@ -57,7 +65,7 @@
       :total-rows="rows"
       :per-page="perPage"
       aria-controls="my-table"
-    ></b-pagination>
+    />
   </div>
 </template>
 

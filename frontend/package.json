@@ -21,7 +21,7 @@
     "vue-wysiwyg": "^1.7.2",
     "vuex": "^3.4.0",
     "jquery": "1.9.1",
-    "webpack": "<=6.0.0"
+    "webpack": "<=4.36.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -42,7 +42,7 @@
     "vue-cli-plugin-i18n": "^2.0.0",
     "vue-template-compiler": "^2.6.11",
     "jquery": "1.9.1",
-    "webpack": "<=6.0.0"
+    "webpack": "<=4.36.0"
   },
   "eslintConfig": {
     "root": true,

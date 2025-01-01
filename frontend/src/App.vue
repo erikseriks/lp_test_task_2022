@@ -1,23 +1,13 @@
 <template>
   <div id="app">
-    <navigation/>
-    <b-container fluid="xl" class="pt-2">
-      <router-view/>
+    <b-container
+      fluid="xl"
+      class="pt-2"
+    >
+      <router-view />
     </b-container>
   </div>
 </template>
-
-<script>
-import Vue from 'vue';
-
-const Navigation = () => import('@/module/app/components/NavBar');
-
-export default Vue.extend({
-  components: {
-    Navigation,
-  },
-});
-</script>
 
 <style lang="scss">
   @import '~bootstrap/scss/bootstrap.scss';
