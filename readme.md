@@ -1,8 +1,5 @@
-# Izpildīts testa uzdevums (Ēriks Ķirsis)
+# Lumen(good old Laravel) and VueJs cv builder app.
 
-## Nepieciešamā programmatūra
-- Docker
-
-## Uzstādīšana
-- Izpildīt komandu `docker-compose up`
-- Links uz aplikāciju: http://localhost:8080
+## Setup
+- `docker-compose up`
+- Link: http://localhost:8080
